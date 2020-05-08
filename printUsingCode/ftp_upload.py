@@ -1,5 +1,5 @@
 import ftplib
-ftp = ftplib.FTP('ftpupload.net','epiz_25099387', '98p1cjl7WnkJ')
+ftp = ftplib.FTP('hostname','username', 'password')
 files = ftp.dir('/htdocs/Prints/')
 ftp.cwd("/htdocs/Uploads")
 filematch = '*.pdf'
